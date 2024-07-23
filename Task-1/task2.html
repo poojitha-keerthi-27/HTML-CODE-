@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:#0084a8;
+        }
+        .form-container{
+            background-color:white;
+            width: 25%;
+            padding: 4%;
+            border-radius: 10px;
+        }
+        .form-group input{
+            width: 100%;
+            padding: 10px;
+        }
+        .form-group input[type="checkbox"]{
+            width: 5%;
+        }
+    </style>
+</head>
+<body>
+    <form class="form-container" action="#">
+        <h3>Login</h3>
+        <div class="form-group">
+            <label for="">Email:</label><br/>
+            <input name="email" type="email " placeholder="Enter email"/>
+        </div>
+        <div class="form-group">
+            <label for="">password:</label><br/>
+            <input name="password" type="password" placeholder="Enter password"/>
+        </div>
+        <div class="form-group">
+            <input name="Show-password" type="checkbox"/> show password
+        </div>
+        <button>SIGN IN</button>
+        <div>
+            <p>
+                Forget <a href="#">Username/password</a>
+            </p>
+            <p>
+                Don't have an account? <a href="#">Sign up</a>
+            </p>
+        </div>
+    </form>
+</body>
+</html>
